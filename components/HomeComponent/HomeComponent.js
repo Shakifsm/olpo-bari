@@ -1,12 +1,14 @@
 import React from 'react';
 import NavBar from '../NavBar/NavBar';
 import Categories from '../Categories/Categories';
+import FeaturedAdds from '../FeaturedAdds/FeaturedAdds';
 
 const HomeComponent = () => {
     return (
-        <div>
+        <div style={{backgroundColor:'#F1F1F1'}}>
             <NavBar />
-            <div style={{backgroundColor:'#F1F1F1'}}><Categories /></div>
+            <Categories />
+            <FeaturedAdds />
         </div>
     );
 };
