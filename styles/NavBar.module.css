@@ -1,0 +1,48 @@
+.navSearchbar{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.navSearchBtn {
+    border: none;
+    background-color: #e75462;
+    display: inline-flex;
+    appearance: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    user-select: none;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    height: 38px;
+    padding: 10px 12px;
+    margin-left: -40px;
+}
+
+.navBtns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.postIcon :hover {
+    color: white !important;
+    /* transform: rotate(30deg) !important;
+    transition: transform 3s; */
+}
+
+
+.logBtn:hover{
+    color: #b1adb3;
+}
